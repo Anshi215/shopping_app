@@ -1,16 +1,32 @@
-# shopping_app
+🛒 Shopping List App
+A Flutter app built as part of a course project to practice connecting a mobile frontend to a real backend. The app lets users manage a shopping list that syncs with a cloud database in real time.
+Features
 
-A new Flutter project.
+Add items to your shopping list with a validated form
+View all items fetched from the database on load
+Delete items locally and sync the update to the backend
+Error handling via try/catch for failed network requests
 
-## Getting Started
+Tech Stack
 
-This project is a starting point for a Flutter application.
+Flutter — UI and app logic
+Riverpod — state management using Notifier Provider
+Firebase Realtime Database — cloud storage, accessed via HTTP requests
 
-A few resources to get you started if this is your first Flutter project:
+What I Practiced
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Structuring a Flutter project with a clean directory layout
+Building and validating forms
+Fetching, posting, and deleting data from a REST-style Firebase endpoint
+Managing app state with Riverpod's NotifierProvider
+Handling exceptions gracefully with try/catch blocks
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Getting Started
+
+Clone the repo
+Run flutter pub get
+Set up a Firebase Realtime Database and add your database URL to the project
+Run with flutter run
+
+Notes
+This was a learning project — the focus was on functionality and clean code structure over UI polish.
